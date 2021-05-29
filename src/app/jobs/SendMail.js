@@ -1,8 +1,8 @@
-import MailService from '../services/MailService'
+import MailService from "../services/MailService";
 
 export default {
-    key: "SendMail",
-    async handle({ data }) {
-        await MailService.sendMail(data)
-    }
-}
+  key: "SendMail",
+  async handle({ data }) {
+    await MailService.sendMail(data);
+  },
+};
